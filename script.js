@@ -748,13 +748,13 @@
 
   gearBtn.addEventListener("click", () => settingsOverlay.classList.remove("hidden"));
   settingsClose.addEventListener("click", () => settingsOverlay.classList.add("hidden"));
-  skipDayBtn.addEventListener("click", () => {
-    if (!save.hatched) return;
-    save.hatchTimestamp -= 86400000; // push hatch day back → +1 day elapsed
-    writeSave(save);
-    updateHud();
-    maybeCelebrateStage();
-  });
+  // skipDayBtn.addEventListener("click", () => {
+  //   if (!save.hatched) return;
+  //   save.hatchTimestamp -= 86400000; // push hatch day back → +1 day elapsed
+  //   writeSave(save);
+  //   updateHud();
+  //   maybeCelebrateStage();
+  // });
   resetBtn.addEventListener("click", () => {
     if (confirm("Release your fish and start a brand new egg?")) {
       localStorage.removeItem(STORAGE_KEY);
