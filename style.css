@@ -50,7 +50,7 @@ html,body{
   font-family:'Baloo 2', cursive;
   font-weight:800;
   font-size:1.4rem;
-  color: #0004c9;
+  color: #000080;
   text-shadow: 0 2px 0 rgba(0,0,0,0.15);
 }
 #hud-stage{
@@ -73,7 +73,7 @@ html,body{
   border-radius:999px;
   font-weight:700;
   font-size:0.85rem;
-  color: var(#0004c9);
+  color: #000080;
 }
 #gear-btn{
   background: rgba(255,255,255,0.18);
@@ -115,7 +115,7 @@ html,body{
 #growth-label{
   font-size:0.72rem;
   font-weight:700;
-  color: #0004c9;
+  color: #000080;
   white-space:nowrap;
   text-shadow: 0 1px 0 rgba(0,0,0,0.15);
 }
