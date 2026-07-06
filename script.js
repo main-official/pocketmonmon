@@ -75,7 +75,7 @@
   const gearBtn        = document.getElementById("gear-btn");
   const settingsOverlay= document.getElementById("settings-overlay");
   const settingsClose  = document.getElementById("settings-close");
-  const skipDayBtn      = document.getElementById("skip-day-btn");
+  // const skipDayBtn      = document.getElementById("skip-day-btn");
   const resetBtn        = document.getElementById("reset-btn");
 
   /* ---------------- CANVAS SIZING ---------------- */
