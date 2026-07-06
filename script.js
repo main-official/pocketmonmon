@@ -491,7 +491,7 @@
     ctx.fillStyle = "#fff6e6";
     ctx.font = "700 15px Quicksand, sans-serif";
     ctx.textAlign = "center";
-    ctx.fillText("Tap the egg to hatch it!", x, y + 92);
+    ctx.fillText("Tap the egg to hatch it", x, y + 92);
     ctx.restore();
   }
 
@@ -833,7 +833,7 @@
     if (phase === "fish") {
       hint.style.opacity = "0.85";
     } else {
-      hint.textContent = "Tap the egg to hatch it!";
+      hint.textContent = "Dedicated to my little bee!";
     }
     updateHud();
     requestAnimationFrame(frame);
