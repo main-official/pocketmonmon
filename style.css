@@ -50,7 +50,7 @@ html,body{
   font-family:'Baloo 2', cursive;
   font-weight:800;
   font-size:1.4rem;
-  color: var(--cream);
+  color: var(#000000);
   text-shadow: 0 2px 0 rgba(0,0,0,0.15);
 }
 #hud-stage{
@@ -73,7 +73,7 @@ html,body{
   border-radius:999px;
   font-weight:700;
   font-size:0.85rem;
-  color: var(--cream);
+  color: var(#000000);
 }
 #gear-btn{
   background: rgba(255,255,255,0.18);
